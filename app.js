@@ -1,7 +1,7 @@
 
 
-let who=['Mi perro', 'Mi hamster','mi hermano','mi novio'];
-let action=['se ha comido', 'ha orinado','ha vomitado','ha destruido'];
+let who=['Mi perro', 'Mi hamster','Mi hermano','Mi novio'];
+let action=['se ha comido', 'ha orinado','ha vomitado en','ha destruido'];
 let what=['mi proyecto','mi movil','mi tarea','el dinero que me prestaste'];
 let when=['al despitarme', 'mientras yo estaba en la ducha','mientras yo estaba durmiendo','cuando le he dejado solo'];
 
@@ -30,3 +30,4 @@ function f_excuseGen(a_who,a_action,a_what,a_when) {
 }
 
 id_excuse.innerHTML = f_excuseGen(who,action,what,when);
+

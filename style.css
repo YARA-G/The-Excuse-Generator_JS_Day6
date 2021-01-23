@@ -1,10 +1,15 @@
 body{
 
-    background-color: bisque;
+    background-color:rgb(233, 231, 231);
     color:rgb(65, 63, 63)
 }
 
-div {
+.container {
    margin:200px;
 
+}
+
+
+#id_excuse{
+    color:red;
 }
