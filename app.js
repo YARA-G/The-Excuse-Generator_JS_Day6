@@ -25,9 +25,22 @@ function f_excuseGen(a_who,a_action,a_what,a_when) {
     len=a_when.length;
     index=Math.floor(Math.random()*len);
     excuse=excuse+" "+ a_when[index];
+    
     return excuse
 
 }
 
+let id_excuse_html=document.getElementById("id_excuse");
 id_excuse.innerHTML = f_excuseGen(who,action,what,when);
+
+
+
+
+
+
+
+
+
+
+
 
